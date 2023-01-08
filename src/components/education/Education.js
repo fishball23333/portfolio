@@ -22,7 +22,7 @@ function Education() {
     }
   ]
   return (
-    <div>
+    <div id = "education">
       <h1>Education</h1>
       <VerticalTimeline>
         {timelineElements.map(element=>{

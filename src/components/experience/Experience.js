@@ -18,7 +18,7 @@ let timelineElements = [
 ]
 const Experience = () => {
   return (
-    <div>
+    <div className='experience' id = "experience">
         <h1>Work Experience</h1>
       <VerticalTimeline>
         {timelineElements.map(element =>{
@@ -29,8 +29,8 @@ const Experience = () => {
                 dateClassName = "date"
                 icon = {<img src={work} alt = "asdf"/>}
                 >
-                <h4 className='vertical-timeline-element-subtitle'>{element.location}</h4>
-                <h4 className='vertical-timeline-element-subtitle title'>{element.title}</h4>
+                <h4 className='vertical-timeline-element-subtitle'>{element.title}</h4>
+                <h4 className='vertical-timeline-element-subtitle location'>{element.location}</h4>
                 <p>{element.description1}</p>
                 <p>{element.description2}</p>
                 <p>{element.description3}</p>

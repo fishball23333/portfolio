@@ -4,10 +4,14 @@ a {
 
 .contact {
     text-align: center;
-    background-color:darkslategray;
+    background-color:rgb(33, 36,41);
 }
 
 .icon{
-    color:black;
+    color:rgb(255, 255, 255);
     margin:2px
+}
+
+.contact h1{
+    color:rgb(221, 215, 215);
 }

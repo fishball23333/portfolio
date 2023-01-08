@@ -7,21 +7,23 @@ import me from '../../assets/me.jpg'
 import './about.css'
 const About = () => {
   return (
-    <>
+    <div id = "About">
     <Container  fluid className="bg-secondary">
       <Row>
         {/* <Col className = " col1" md={10} xs={11}> */}
-        <Col md={6} sm={6} className="d-none d-sm-block px-0">
+        <Col md={6} sm = {12}className="px-0">
           <Image fluid rounded={true} src={me} alt="myself" className='myself'/>
         </Col>
-        <Col md={6} sm={6} >        
+        <Col md={6} sm={12} >        
           <h1>About</h1>
-          <p>Hi visitor, my name is Binwei Yu, currently a 2nd year Seneca student studying Computer Programming & Analysis. </p>
-          <p>In this two year study period, I have explored and mastered many programming languages and skills, and those skills can be found in the specific section in the page below. </p>
+          <h4>Hi, my name is Binwei Yu, currently a 3rd year Seneca student studying Computer Programming & Analysis. </h4>
+          <h4>In my previous two year study period, I have explored and mastered many programming languages and skills, and those skills can be found in the specific section in the page below. </h4>
+          <h4>I have strong desire and passion for improving and learning more on programming-related skills, since I found working in IT industry is very interesting and suitable for me and I enjoy solving programming puzzles all day long in front of my computer. </h4>
+          <h4>I'm looking forward to becoming a professional software developer, and I believe my hard work in this field will get paid off one day, and I will be the useful contributor for the company if I have a chance to get hired. </h4>
         </Col>
       </Row>
     </Container>
-    </>
+    </div>
   )
 }
 
