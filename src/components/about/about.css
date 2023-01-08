@@ -1,0 +1,12 @@
+.rows {
+    border: solid red;
+}
+
+.col{
+    border: solid blue;
+}
+
+h1 {
+    text-align: center;
+}
+

@@ -1,29 +1,28 @@
 // rafce
 
 import React from 'react'
-import './index.css'
-import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
+import './App.css'
+import MyNav from './components/nav/Nav'
 import About from './components/about/About'
-import Footer from './components/footer/Footer'
 import Contact from './components/contact/Contact'
-import Experience from './components/experience/Experience'
+import Skills from './components/skills/Skills'
 import Portfolio from './components/portfolio/Portfolio'
-import Services from './components/services/Services'
-import Testimonials from './components/testimonials/Testimonials'
-import "bootstrap/dist/css/bootstrap.min.css"
+import Education from './components/education/Education'
+import Experience from './components/experience/Experience'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import "react-vertical-timeline-component/style.min.css"
+
 const App = () => {
   return (
     <>
-        <Header />
-        <Nav />
+        <MyNav />
         <About />
+        <Skills />
+        <Education />
         <Experience />
-        <Services />
         <Portfolio />
-        <Testimonials />
         <Contact />
-        <Footer />
     </>
   )
 }
