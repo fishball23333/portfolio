@@ -18,6 +18,7 @@ import mongoDB from "../../assets/database/mongoDB.png"
 import aws from "../../assets/database/aws.png"
 import docker from "../../assets/tools/docker.png"
 import git from "../../assets/tools/git.png"
+import azure from "../../assets/skills/azure.png"
 import './skills.css'
 const Skills = () => {
   return (
@@ -106,7 +107,7 @@ const Skills = () => {
           <Col md={2} sm = {2}>
             <Card className = "skills">
               <Card.Img variant = "top" alt = "aws" src={aws}/>
-              <Card.Title>AWS (dynamoDB & S3)</Card.Title>
+              <Card.Title>dynamoDB & S3</Card.Title>
             </Card>
           </Col>
           <Col md={2} sm = {2}></Col>        
@@ -125,6 +126,23 @@ const Skills = () => {
             <Card className = "skills">
               <Card.Img variant = "top" alt = "git" src={git}/>
               <Card.Title>git</Card.Title>
+            </Card>
+          </Col>
+          <Col md = {4} sm = {4}></Col>  
+        </Row>
+        <Row>
+          <h2 className='subtitle'>Cloud Services</h2>  
+          <Col md = {4} sm = {4}></Col>  
+          <Col md={2} sm = {2}>
+            <Card className = "skills">
+              <Card.Img variant = "top" alt = "azure" src={azure}/>
+              <Card.Title>azure (currently learning)</Card.Title>
+            </Card>
+          </Col>
+          <Col md={2} sm = {2}>
+            <Card className = "skills">
+              <Card.Img variant = "top" alt = "aws" src={aws}/>
+              <Card.Title>aws</Card.Title>
             </Card>
           </Col>
           <Col md = {4} sm = {4}></Col>  
