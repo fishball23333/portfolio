@@ -21,15 +21,33 @@ const Projects = () => {
         </tr>
       </thead>
       <tbody>
-        <tr>
+            <tr>
           <td className='align-middle'>1</td>
-          <td className='align-middle'>AWS microservices  </td>
+          <td className='align-middle'>File Storage and Converter</td>
           <td>
-            <p>Developed a web hosted on ECS that can interact with different AWS services including DynamoDB and S3 for maintaining uploaded user files in different data types </p>
+            <p> •	Implemented unit test, integration test and CI/CD pipeline throughout software development life cycle Utilized multiple AWS services (e.g. Cognito, EC2, ECS, DynamoDB, S3) and microservices architecture </p>
+            <p> •	Handled users authorization and authentication </p>
+            <p> •	Developed REST APIs for users to add/read/update/delete large files to databwases</p>
+            <p> •	Allowed users to convert specific file types to other supported types </p>
+            <p> •	Implemented unit test, integration test and CI/CD pipeline throughout software development life cycle</p>
 
           </td>
           <td className='align-middle'>
-            Currently unavailable due to AWS student account might get expired
+            Currently unavailable due to AWS student account is expired
+          </td>
+        
+        </tr>
+        <tr>
+
+          <td className='align-middle'>2</td>
+          <td className='align-middle'>Home Meal Website</td>
+          <td>
+            <p> •	Provided functionalities for both users and admins to sign up and log in/out, only admins to add/update/delete menu, and users to make orders. </p>
+            <p> •	Sent registration and order confirmation notification emails using SendGrid APIs </p>
+            <p> •	Stored menu and user management data in MongoDB</p>
+          </td>
+          <td className='align-middle'>
+            Currently unavailable due to AWS student account is expired
           </td>
         </tr>
       </tbody>
