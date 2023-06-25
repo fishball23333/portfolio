@@ -62,6 +62,18 @@ const Projects = () => {
             repository link: <a href="https://github.com/fishball23333/viteLearning">https://github.com/fishball23333/viteLearning</a>
           </td>
         </tr>
+
+        <tr>
+          <td className='align-middle'>4</td>
+          <td className='align-middle'>PERN stack simple demonstration</td>
+          <td>
+             <p> • Implemented an simple web app based on PERN stack with the ability to perform the basic CRUD operations</p>
+          </td>
+          <td className='align-middle'>
+            repository link: <a href="https://github.com/fishball23333/pern_learning">https://github.com/fishball23333/pern_learning</a>
+          </td>
+        </tr>
+
       </tbody>
     </Table>
     </div>
