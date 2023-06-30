@@ -22,8 +22,8 @@ import azure from "../../assets/skills/azure.png"
 import './skills.css'
 const Skills = () => {
   return (
-    <div className='skills' id = "skills">
-      <h1>My Skills</h1>
+    <div className='skills pt-5' id = "skills">
+      <h1 >My Skills</h1>
       <Container fluid>
         <Row>
           <h2 className='subtitle'>programming languages</h2>
@@ -37,7 +37,7 @@ const Skills = () => {
           <Col sm = {2} md={2}>
             <Card className = "skills">
               <Card.Img variant = "top" alt = "python" src={python}/>
-              <Card.Title>C++</Card.Title>
+              <Card.Title>Python</Card.Title>
             </Card>
           </Col>
           <Col sm = {2} md={2}>
@@ -89,7 +89,7 @@ const Skills = () => {
           <Col md={2} sm = {2}>
             <Card className = "skills">
               <Card.Img variant = "top" alt = "postgres" src={postgres}/>
-              <Card.Title>postgres</Card.Title>
+              <Card.Title>postgreSQL</Card.Title>
             </Card>
           </Col>
           <Col md={2} sm = {2}>
@@ -136,7 +136,7 @@ const Skills = () => {
           <Col md={2} sm = {2}>
             <Card className = "skills">
               <Card.Img variant = "top" alt = "azure" src={azure}/>
-              <Card.Title>azure (currently learning)</Card.Title>
+              <Card.Title>azure</Card.Title>
             </Card>
           </Col>
           <Col md={2} sm = {2}>

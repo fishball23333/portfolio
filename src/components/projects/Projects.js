@@ -7,7 +7,7 @@ const Projects = () => {
   return (
 
     
-    <div className='projects' id="projects">
+    <div className='projects py-5' id="projects">
       <h1>
         Projects
       </h1>
@@ -74,6 +74,17 @@ const Projects = () => {
           </td>
         </tr>
 
+        <tr>
+          <td className='align-middle'>5</td>
+          <td className='align-middle'>Simple Google Map simulation based on Google map API</td>
+          <td>
+             <p> • Implemented an simple Vue Project which can render google map on the web based on public google map library. </p>
+             <p> • Note: The web hosting is required to have a secrete google map API key. </p>
+          </td>
+          <td className='align-middle'>
+            repository link: <a href="https://github.com/fishball23333/google_map_proj">https://github.com/fishball23333/google_map_proj</a>
+          </td>
+        </tr>
       </tbody>
     </Table>
     </div>

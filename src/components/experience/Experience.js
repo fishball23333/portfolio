@@ -6,7 +6,7 @@ import work from '../../assets/work.png'
 let timelineElements = [
     {
     key:1,
-    date: "2019 - present",
+    date: "2019 - 2023",
     location: "YorkTech Supply Ltd., Markham",
     title: "Counter Sales & Warehouse Associate ",
     description1:"Introducing products and making recommendations to customers in a good manner",
@@ -18,7 +18,7 @@ let timelineElements = [
 ]
 const Experience = () => {
   return (
-    <div className='experience' id = "experience">
+    <div className='experience py-5' id = "experience">
         <h1>Work Experience</h1>
       <VerticalTimeline>
         {timelineElements.map(element =>{

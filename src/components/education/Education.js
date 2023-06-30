@@ -7,9 +7,9 @@ function Education() {
   let timelineElements = [
     {
     key:1,
-    date: "September 2021 - present",
+    date: "September 2021 - April 2023",
     location: "Seneca College",
-    major: "Ontario College Advanced Diploma in Computer Programming and Analysis",
+    major: "Ontario College Diploma in Computer Programming",
     description:"GPA 4.0, President's Honour List (Fall 2021, Winter 2022, Summer 2022, Fall 2022)",
     icon: "school"
     },{
@@ -22,7 +22,7 @@ function Education() {
     }
   ]
   return (
-    <div id = "education">
+    <div id = "education" className='py-5'>
       <h1>Education</h1>
       <VerticalTimeline>
         {timelineElements.map(element=>{

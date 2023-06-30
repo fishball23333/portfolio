@@ -15,7 +15,7 @@ const About = () => {
           <Image fluid rounded={true} src={me} alt="myself" className='myself'/>
         </Col>
         <Col md={6} sm={12} >        
-          <h1>About</h1>
+          <h1 className='py-5'>About</h1>
           <h4>Hi, my name is Binwei Yu, a new graduate of Computer Programming program in Seneca College. </h4>
           <h4>In my previous two year study period, I have explored and mastered many programming languages and skills, and those skills can be found in the specific section in the page below. </h4>
           <h4>I have strong desire and passion for improving and learning more on programming-related skills, and I'm really addicted to coding throughout my recent two years of study period and I love solving programming puzzles all day long in front of my computer. </h4>
