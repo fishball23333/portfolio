@@ -1,7 +1,7 @@
 {
   "homepage": "https://fishball23333.github.io/portfolio",
   "name": "profile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.2.1",

@@ -19,6 +19,11 @@ import aws from "../../assets/database/aws.png"
 import docker from "../../assets/tools/docker.png"
 import git from "../../assets/tools/git.png"
 import azure from "../../assets/skills/azure.png"
+import typescript from '../../assets/skills/typescript.png'
+import vue from '../../assets/skills/vue.png'
+import c from '../../assets/skills/c.png'
+import gRPC from '../../assets/skills/gRPC.png'
+import expressjs from '../../assets/skills/expressjs.png'
 import './skills.css'
 const Skills = () => {
   return (
@@ -28,6 +33,12 @@ const Skills = () => {
         <Row>
           <h2 className='subtitle'>programming languages</h2>
           {/* <Col md={3} className="d-none d-md-block px-0"></Col> */}
+          <Col sm = {2} md = {2}>
+            <Card className = "skills">
+              <Card.Img variant = "top" alt = "c" src={c}/>
+              <Card.Title>C</Card.Title>
+            </Card>
+          </Col>
           <Col sm = {2} md = {2}>
             <Card className = "skills">
               <Card.Img variant = "top" alt = "c++" src={cplusplus}/>
@@ -42,9 +53,40 @@ const Skills = () => {
           </Col>
           <Col sm = {2} md={2}>
             <Card className = "skills">
+              <Card.Img variant = "top" alt = "typescript" src={typescript}/>
+              <Card.Title>Typescript</Card.Title>
+            </Card>
+          </Col>
+          <Col sm = {2} md={2}>
+            <Card className = "skills">
               <Card.Img variant = "top" alt = "javascript" src={javascript}/>
               <Card.Title>Javascript</Card.Title>
             </Card>            
+          </Col>
+
+          <Col sm = {2} md={2}>
+            <Card className = "skills">
+              <Card.Img variant = "top" alt = "bash" src={bash}/>
+              <Card.Title>bash</Card.Title>
+            </Card>               
+          </Col>
+          {/* <Col md={3} className="d-none d-md-block px-0"></Col> */}
+        </Row>
+        <Row >
+          <h2 className='subtitle'>Web Front End skills</h2>
+          <Col md={2} sm ={2}></Col>
+
+          <Col sm = {2} md={2}>
+            <Card className = "skills">
+              <Card.Img variant = "top" alt = "react" src={react}/>
+              <Card.Title>React</Card.Title>
+            </Card>
+          </Col>
+          <Col sm = {2} md={2}>
+            <Card className = "skills">
+              <Card.Img variant = "top" alt = "vue" src={vue}/>
+              <Card.Title>Vue</Card.Title>
+            </Card>
           </Col>
           <Col sm = {2} md={2}>
             <Card className = "skills">
@@ -58,30 +100,25 @@ const Skills = () => {
               <Card.Title>HTML</Card.Title>
             </Card>               
           </Col>
-          <Col sm = {2} md={2}>
-            <Card className = "skills">
-              <Card.Img variant = "top" alt = "bash" src={bash}/>
-              <Card.Title>bash</Card.Title>
-            </Card>               
-          </Col>
-          {/* <Col md={3} className="d-none d-md-block px-0"></Col> */}
+          <Col md={2} sm={2}></Col>
         </Row>
-        <Row >
-          <h2 className='subtitle'>Web Framework</h2>
+
+
+        <Row>
+          <h2 className='subtitle'>Web Back End Skills</h2>  
           <Col md={4} sm ={4}></Col>
           <Col sm = {2} md={2}>
             <Card className = "skills">
-              <Card.Img variant = "top" alt = "node" src={node}/>
-              <Card.Title>NodeJS (express)</Card.Title>
+              <Card.Img variant = "top" alt = "express" src={expressjs}/>
+              <Card.Title>Express.js</Card.Title>
             </Card>
           </Col>
           <Col sm = {2} md={2}>
             <Card className = "skills">
-              <Card.Img variant = "top" alt = "react" src={react}/>
-              <Card.Title>react</Card.Title>
+              <Card.Img variant = "top" alt = "gRPC" src={gRPC}/>
+              <Card.Title>gRPC (based on node.js)</Card.Title>
             </Card>
           </Col>
-          <Col md={4} sm={4}></Col>
         </Row>
         <Row>
           <h2 className='subtitle'>Database</h2>         
